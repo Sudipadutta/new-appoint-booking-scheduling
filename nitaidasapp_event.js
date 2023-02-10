@@ -218,6 +218,7 @@ function order_content_delete(id, sid) {
             success: function(data1) {
 
                 console.log(data1);
+                console.log(id);
                 // alert(data1);
                 // jQuery("#welcomeDiv").html("");
                 // jQuery("#welcomeDiv").append(data1);
