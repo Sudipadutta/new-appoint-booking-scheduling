@@ -1203,7 +1203,7 @@ else{
 
     echo  $sql3="UPDATE ".$wpdb->prefix."cpappbk_messages SET posted_data= '".$ac_posted_data."' WHERE id= '".$ID."' AND formid=1";
     $wpdb->query($sql3);
-    // echo 'succeccfull approved';
+    echo 'succeccfull approved';
 }
 }
 
